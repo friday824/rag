@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境变量与密钥（切勿提交）
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code 本地配置
+.claude/
+
+# Chroma 向量数据库（运行时生成）
+db/
+
+# 操作系统
+.DS_Store
+Thumbs.db

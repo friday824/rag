@@ -1,0 +1,13 @@
+Python是一种广泛使用的高级编程语言，由Guido van Rossum于1991年首次发布。Python以简洁清晰的语法著称，强调代码的可读性和简洁性，使得开发者能够用更少的代码表达更多的逻辑。
+
+Python的核心数据类型包括整数int、浮点数float、字符串str、列表list、元组tuple、字典dict和集合set。其中列表是可变的序列类型，支持增删改查操作；元组是不可变序列；字典以键值对形式存储数据，查找效率非常高。
+
+在函数定义方面，Python使用def关键字定义函数，支持默认参数、可变参数和关键字参数。例如：def greet(name, greeting="Hello"): return f"{greeting}, {name}"。Python还支持lambda匿名函数，适合简单的单行表达式。
+
+面向对象编程是Python的重要特性。通过class关键字定义类，__init__方法用于初始化对象属性。Python支持继承、多态和封装，super()函数可以调用父类方法。
+
+Python的标准库非常丰富，os模块用于操作系统交互，sys模块管理运行时环境，datetime模块处理日期时间，json模块解析JSON数据，re模块提供正则表达式支持。第三方库方面，numpy用于科学计算，pandas处理数据分析，requests发送HTTP请求，flask和django用于Web开发。
+
+Python的异常处理使用try-except-finally结构，可以捕获并处理运行时错误，避免程序崩溃。with语句用于上下文管理，自动管理资源的打开和释放。
+
+列表推导式是Python的特色语法：squares = [x**2 for x in range(10)]，可以快速生成列表。生成器表达式使用圆括号，采用惰性求值策略节省内存。
